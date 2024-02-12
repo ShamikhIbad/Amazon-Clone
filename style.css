@@ -189,39 +189,47 @@ height: 26px;
 
 
 
-/* HERO SECTI0N */
-.hero-back{
-   height: 600px;
-   background-color: #e1e5e4;
-}
-.hero-section{
-   background-image: url(pics/hero_image.jpg);
- background-size: cover;
- height: 600px;
- width: 1500px;
- margin-left: 10%;
- margin-right: 10%;
- display: flex;
- align-items: flex-end;
- justify-content: center;
- -webkit-mask-image: linear-gradient(#000,rgba(0,0,0,0));
- mask-image: linear-gradient(#000,rgba(0,0,0,0));
 
+
+#headerSlider{
+   background-color: #e3e6e6 ;
+   padding: 0 10%;
+   height: 300px;
 }
- .hero-msg{
-   height: 40px;
-   width: 90%;
-   background-color:white;
-   color: black;
+
+#headerSlider ul{
    display: flex;
-   align-items: center;
-   justify-content: center;
-   font-size: 0.85rem;
-   margin-bottom: 4%;
-} 
-.hero-msg a {
-   color: #007185;
+   overflow-y: hidden;
+   height: 600px;
+   width: 1522px;
 }
+
+.iconleft{
+  position: absolute;
+  top: 25%;
+  padding-left: 30px;
+  font-size: 3rem;
+  cursor: pointer;
+  z-index: 1;
+}
+.iconright{
+   position: absolute;
+   top: 25%;
+   right: 10%;
+   padding-right: 30px;
+   font-size: 3rem;
+   cursor: pointer;
+   z-index: 1;
+   
+ 
+ }
+.sliderImages{
+   max-width: 100%;
+   mask-image: linear-gradient(to bottom , #000000 50%, transparent 100%);
+}
+
+
+ 
 .shop-section{
    background-color: #e1e5e4;
   height: fit-content; 
@@ -230,9 +238,10 @@ height: 26px;
    align-items: center;
 }
 
-.upper-boxes-1 , .upper-boxes-2{
+.upper-boxes-1 , .upper-boxes-2 ,.upper-boxes-3{
    display: flex;  
    gap: 20px;
+   z-index: 1;
 }
 
 .box{
@@ -405,7 +414,7 @@ font-size: 14px;
    }
 
 
-ul{
+   #footer-last-elements ul{
    display: flex;
    justify-content: center;
    gap: 3rem;
