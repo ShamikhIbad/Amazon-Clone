@@ -2,8 +2,7 @@
    padding: 0px;
    margin: 0px;
    font-family: Arial, Helvetica, sans-serif;
-   border: border-box;
-  
+   
 }
 .navbar{
    height: 60px;
@@ -200,8 +199,9 @@ gap: 2rem;
 /* HEADER SLIDING IMAGES ON BACKGROUND  */
 #headerSlider{
    background-color: #e3e6e6 ;
-   padding: 0 10%;
    height: 300px;
+   display: flex;
+   justify-content: center;
 }
 
 #headerSlider ul{
@@ -214,6 +214,7 @@ gap: 2rem;
 .iconleft{
   position: absolute;
   top: 25%;
+  left: 10%;
   padding-left: 30px;
   font-size: 3rem;
   cursor: pointer;
@@ -406,24 +407,24 @@ font-size: 14px;
       color: #bdb7b7;
       font-size: 13px;
       border: 0.7px solid #bdb7b7;
-  border-radius: 3px;
-  margin-right: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+      border-radius: 3px;
+      margin-right: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
    }
    .footer-bottom-div3{
-      width:141px ;
-      height:34px ;
-      background-color: #172937;
-      color: #bdb7b7;
-      font-size: 13px;
-      border: 0.7px solid #bdb7b7;
-  border-radius: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+     width:141px ;
+     height:34px ;
+     background-color: #172937;
+     color: #bdb7b7;
+     font-size: 13px;
+     border: 0.7px solid #bdb7b7;
+     border-radius: 3px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
    }
    #last-logo{
       background-image: url(pics/amazon_logo.png);
@@ -458,16 +459,14 @@ li h4{
    background-color: #131a22 ;
 }
 .copyright{
-   padding-bottom: 1.7rem;
+ text-align: center;
+ font-size: smaller;
+ color:  #d7d2d2;
+  padding-bottom: 1.7rem;
+  line-height:20px ;
 }
 
 .copyright a{
-   color: #d7d2d2;
-   font-size: smaller;
-text-decoration: none;
-}
-.copyright p{
-   font-size: smaller;
-color:  #d7d2d2;
-text-align: center;
+ text-decoration: none;
+ color:  #d7d2d2;
 }

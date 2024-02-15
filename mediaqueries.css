@@ -1,0 +1,17 @@
+@media screen and (max-width:1525px) {
+    #headerSlider ul{
+        max-width: 100vw;
+    }
+    .iconleft{
+      left: 2%;
+    }
+    .iconright{
+        right: 2%;
+    }
+    .box{
+        width: 23vw;
+    }
+    .rectangleBox{
+        width: 93.5vw;
+    }
+}
