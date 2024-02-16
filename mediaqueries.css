@@ -9,9 +9,47 @@
         right: 2%;
     }
     .box{
-        width: 23vw;
+        width: 23vw; 
+    }
+    .box-img{
+        height: 280px;
     }
     .rectangleBox{
-        width: 93.5vw;
+        width: 95.7vw;
     }
+    .box4img2pair img {
+        width: 11vw;
+     }
+
+
+}
+
+
+
+@media screen and (max-width:1000px) {
+    #headerSlider ul{
+        min-width: 1000px;
+    }
+   
+    .upper-boxes-1 , .upper-boxes-2 ,.upper-boxes-3,.upper-boxes-hidden{
+         min-width: 980px;
+     }
+     .box{
+        width: 314px;
+        height: 420px;
+     }
+
+     .box4{
+        display: none;
+     }
+     .upper-boxes-hidden{
+        display:flex;
+     }
+     .rectangleBox{
+        width: 980px;
+     }
+     .box4img2pair img {
+        width: 150px;
+     }
+
 }
