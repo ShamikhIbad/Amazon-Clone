@@ -209,6 +209,7 @@ height: 26px;
   cursor: pointer;
   z-index: 1;
 }
+
 .iconright{
    position: absolute;
    top: 25%;
@@ -217,8 +218,6 @@ height: 26px;
    font-size: 3rem;
    cursor: pointer;
    z-index: 1;
-   
- 
  }
 .sliderImages{
    max-width: 100%;

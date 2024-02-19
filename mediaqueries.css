@@ -6,7 +6,7 @@
       left: 2%;
     }
     .iconright{
-        right: 2%;
+      right: 2%;    
     }
     .box{
         width: 23vw; 
@@ -30,7 +30,11 @@
     #headerSlider ul{
         min-width: 1000px;
     }
-   
+    #iconborder{
+        position: absolute;
+        min-width: 1000px;
+        top: 25%;
+     }
     .upper-boxes-1 , .upper-boxes-2 ,.upper-boxes-3,.upper-boxes-hidden{
          min-width: 980px;
      }
